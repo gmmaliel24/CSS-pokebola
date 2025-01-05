@@ -1,0 +1,61 @@
+/*Styles the body to center the Poké Ball vertically and horizontally*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, black, white);
+}
+/*The main container for the Pokeball*/
+.boll{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+/*Represents the upper half of the Pokeball*/
+.first{
+    width: 500px;
+    height: 225px;
+    background-color: red;
+    border-top-left-radius: 50% 100%;
+	border-top-right-radius: 50% 100%;
+    border-bottom: 25px solid black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+/*Represents part of the central button of the Pokeball*/
+.second{
+    width: 130px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    translate: -140px 60px;
+    transform: rotate(-45deg);
+
+}
+/*Represents the main circular button on the Pokeball*/
+.third{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 15px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    translate: 0px 80px;
+}
+/*Represents the inner circle of the Pokeball button*/
+.forth{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
